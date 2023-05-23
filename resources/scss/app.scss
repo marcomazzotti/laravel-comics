@@ -1,1 +1,19 @@
 @import '~bootstrap/scss/bootstrap';
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  height: 70px;
+
+  li:hover {
+    color: #0282f9;
+  }
+
+  .active {
+    color: #0282f9;
+  }
+}
